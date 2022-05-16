@@ -2,3 +2,6 @@ This is my weather app! When a city is searched in the search bar, the current f
 
 Below is a screenshot of the finished application, as well as a git hub pages link to the deployed website.
 
+https://michael-ishmail.github.io/Weather-app/
+
+![Screenshot](screenshot.png)
