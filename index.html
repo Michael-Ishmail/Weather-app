@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather app</title>
+</head>
+<body class="bg-sky-100">
+    <header class="flex justify-center bg-blue-400">
+        <h1 class="text-xl flex ">Weather App</h1>
+    </header>
+    
+    <section class="flex justify-center space-x-5 p-5">
+        <h2 class="text-l flex">Search for a city</h2>
+        <input type="text" placeholder="Enter City" id="city">
+        <button type="submit" id="btn">Search</button>
+    </section>
+
+    <section class="flex-auto justify-center p-2 ">
+        <div class="max-w-l rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 city-name"></div>
+              <div class="text-gray-700 text-base">
+
+                <p class="day-0-date">
+                
+                </p>
+
+                 <img class="day-0-img">
+
+                 <p class="day-0-weather">
+                    
+                 </p>
+
+                 <p class="day-0-wind">
+                    
+                 </p>
+
+                 <p class="day-0-humid">
+                    
+                 </p>
+
+                 <p class="day-0-uv">
+
+                 </p>
+
+
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <div>
+        <h2 class="flex justify-center p-2">5-day Forecast</h2>
+    </div>
+
+    <section class="flex justify-center space-x-10 p-2">
+
+
+        
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 day-1-date"></div>
+              <div class="text-gray-700 text-base">
+
+                 <img class="day-1-img">
+
+                 <p class="day-1-weather">
+                    
+                 </p>
+
+                 <p class="day-1-wind">
+                    
+                 </p>
+
+                 <p class="day-1-humid">
+                    
+                 </p>
+
+
+              </div>
+            </div>
+          </div>
+        
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 day-2-date"></div>
+              <div class="text-gray-700 text-base">
+
+                 <img class="day-2-img">
+
+                 <p class="day-2-weather">
+                    
+                 </p>
+
+                 <p class="day-2-wind">
+                    
+                 </p>
+
+                 <p class="day-2-humid">
+                    
+                 </p>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 day-3-date"></div>
+              <div class="text-gray-700 text-base">
+
+                 <img class="day-3-img">
+
+                 <p class="day-3-weather">
+                    
+                 </p>
+
+                 <p class="day-3-wind">
+                    
+                 </p>
+
+                 <p class="day-3-humid">
+                    
+                 </p>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 day-4-date"></div>
+              <div class="text-gray-700 text-base">
+
+                 <img class="day-4-img">
+
+                 <p class="day-4-weather">
+                    
+                 </p>
+
+                 <p class="day-4-wind">
+                    
+                 </p>
+
+                 <p class="day-4-humid">
+                    
+                 </p>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+            <img class="w-full">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 day-5-date"></div>
+              <div class="text-gray-700 text-base">
+
+                 <img class="day-5-img">
+
+                 <p class="day-5-weather">
+                    
+                 </p>
+
+                 <p class="day-5-wind">
+                    
+                 </p>
+
+                 <p class="day-5-humid">
+                    
+                 </p>
+
+
+              </div>
+            </div>
+          </div>         
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script>dayjs().format()</script>
+ <script src="assets/JS/script.js"></script>
+</body>
+</html>
